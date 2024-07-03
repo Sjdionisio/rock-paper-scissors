@@ -1,3 +1,3 @@
-#Rock Paper & Scissors
+# Rock Paper & Scissors
 
-Game is played entirely in the console.
+A Rock Paper Scissors Game that is played entirely in the console.
