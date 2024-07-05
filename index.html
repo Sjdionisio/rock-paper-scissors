@@ -3,9 +3,24 @@
     <head>
         <meta charset="UTF+8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        Please only input Rock Paper or Scissors
+        <div class="header"><h1>Rock Paper & Scissors</h1></div>
+        <div class="content">
+            <div class="choices">
+                <button id="rockBtn">Rock</button>
+                <button id="paperBtn">Paper</button>
+                <button id="scissorsBtn">Scissors</button>
+            </div>
+            <div class="results">
+                <h1 class="result"></h1>
+                <label for="humanScore">Your Score:</label>
+                <input id="humanScore" class="humanScore" type="number">
+                <label for="computerScore">Computer Score:</label>
+                <input id="computerScore" class="computerScore" type="number">
+            </div>
+        </div>
     </body>
     <script src="script.js" type="text/javascript"></script>
 </html>
